@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #653780 !important;
+}
+nav .btn-primary{
+    background-color: #F89F5B;
+    border-color: aliceblue;
+    border-radius: 0 10px 0 10px;
+}
+nav .btn-primary:hover{
+    background-color: #3F1651;
+    color:#F89F5B;
+    cursor: pointer;
+}
+#mynavbar{
+    font-size:20px;
+}
+#mynavbar .nav-link{
+    color:#bf8dd5;
+}
+#mynavbar .nav-link:hover{
+    text-decoration: underline;
+    color:aliceblue;
+    padding-bottom: 5px;
+}
+.carousel-item img{
+    width: 100% !important;
+    height:557px; 
+}
+.imgslides{
+    padding:0 !important;
+}
+
+/* Info page */
+.card-con{
+    margin-top:100px;
+}
+.card-con h4{
+    padding:15px;
+    font-size:18px;
+    text-align: center;
+    color:#fff;
+}
+/* Shop Page */
+#shop-carousel{
+    margin-top:100px;
+    color:#fff;
+}
